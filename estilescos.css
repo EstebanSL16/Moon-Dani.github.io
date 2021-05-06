@@ -6,7 +6,8 @@ body {
     padding: 0px;
     box-sizing: border-box;
     background: linear-gradient(#393e46, #00adb5);
-    background: #02475e;
+    background: red;
+
 }
 
 .header {
