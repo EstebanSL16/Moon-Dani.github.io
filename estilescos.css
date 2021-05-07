@@ -21,12 +21,25 @@ body {
     flex-direction: raw;
     flex: 1;
     height: 600px;
+    margin: 2px;
+    flex-direction: nowrap;
 }
 
-.content {
+.content{
     outline: 1px solid blue;
     display: flex;
     flex: 1;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    font-size: 30px;
+}
+
+.text {
+        font-family: sans-serif;
 }
 
 .aside {
@@ -37,6 +50,7 @@ body {
     padding: 10px;
     height: 460px;
     border-radius: 50px solid blue;
+    flex-direction: column;
 }
 
 .img {
